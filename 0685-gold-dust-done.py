@@ -1,3 +1,5 @@
+# acmp.ru/index.asp?main=task&id_task=685
+
 import sys
 A1, A2, A3, B1, B2, B3 = [int(s) for s in sys.stdin.readline().strip().split()]
 
