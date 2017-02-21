@@ -1,3 +1,5 @@
+# acmp.ru/index.asp?main=task&id_task=174
+
 import sys
 
 N, = [int(s) for s in sys.stdin.readline().strip().split()]
@@ -30,5 +32,4 @@ while j < N:
 
 
 print ("%.6f" % (money_G))
-
 
