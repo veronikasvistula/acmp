@@ -1,3 +1,5 @@
+# acmp.ru/asp/do/index.asp?main=task&id_course=1&id_section=7&id_topic=118&id_problem=729
+
 import sys
 
 N, = [int(s) for s in sys.stdin.readline().strip().split()]
