@@ -15,8 +15,6 @@ while x < len(zero):
             zero_max = zero_now
         
     if zero[x] == '1':
-        if zero_max < zero_now:
-            zero_max = zero_now
         zero_now = 0
     x += 1
         
