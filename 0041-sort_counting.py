@@ -4,7 +4,7 @@ import sys
 N, = [int(s) for s in sys.stdin.readline().strip().split()]
 lst = [int(s) for s in sys.stdin.readline().strip().split()]
 
-lst_i = [num for num in range(-100, 101)]
+# lst_i = [num for num in range(-100, 101)]
 lst_count = [0]*201
 
 i = 0
@@ -21,8 +21,9 @@ i = 0
 while i < len(lst_count):
     if lst_count[i] != 0:
         p = 1
-        while p <= lst_count[i]:                        
-            lst_sort.append(lst_i[i])
+        while p <= lst_count[i]:    
+            lst_sort.append(i - 100)
+#            lst_sort.append(lst_i[i])
             p += 1
     i += 1
 
