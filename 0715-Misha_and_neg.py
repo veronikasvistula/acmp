@@ -1,4 +1,4 @@
-acmp.ru/asp/do/index.asp?main=task&id_problem=749
+# acmp.ru/asp/do/index.asp?main=task&id_problem=749
 
 import sys
 
